@@ -159,7 +159,7 @@ def q_learning(env, estimator, num_episodes, discount_factor=1.0, epsilon=0.1, e
         print("\rEpisode {}/{} ({})".format(i_episode + 1, num_episodes, last_reward))
         sys.stdout.flush()
 
-        
+
         state = env.reset()
 
         for t in itertools.count():
