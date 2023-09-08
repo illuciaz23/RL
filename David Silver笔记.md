@@ -462,3 +462,14 @@ this method improves policy  e.g.  $\epsilon$-Greedy
 TD search applies Sarsa to sub-MDP from now
 
 <img src="image\image-20230827221004659.png" alt="image-20230827221004659" style="zoom:67%;" />Dyna-2
+
+## Exploration and Exploitation
+
+Exploitation： Make the best decision given current information
+Exploration： Gather more information
+
+### The Multi-Armed Bandit
+
+<img src="image\image-20230908210116058.png" alt="image-20230908210116058" style="zoom: 67%;" />
+
+<img src="image\image-20230908210145834.png" alt="image-20230908210145834" style="zoom:67%;" />
